@@ -3,10 +3,10 @@ public class Gericht {
     public String zutaten;
     public double preis;
 
-    public Gericht(String neuerName, String neueZutaten, double neuerPreis) {
-        name = neuerName;
-        zutaten = neueZutaten;
-        preis = neuerPreis;
+    public Gericht(String name, String zutaten, double preis) {
+        this.name = name;
+        this.zutaten = zutaten;
+        this.preis = preis;
     }
 
     public void zutatHinzufügen(String zutat) {

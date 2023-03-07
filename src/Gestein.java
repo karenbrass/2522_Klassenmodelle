@@ -4,13 +4,11 @@ public class Gestein {
     public String hauptmineral;
     public String nebenmineral;
 
-    public Gestein(String neuerName, double neueDichte,
-                   String neuesHauptmineral, String neuesNebenmineral) {
-        name = neuerName;
-        dichte = neueDichte;
-        hauptmineral = neuesHauptmineral;
-        nebenmineral = neuesNebenmineral;
-        System.out.println("Gestein erzeugt"); // <- Mhmmm
+    public Gestein(String name, double dichte, String hauptmineral, String nebenmineral) {
+        this.name = name;
+        this.dichte = dichte;
+        this.hauptmineral = hauptmineral;
+        this.nebenmineral = nebenmineral;
     }
 
     public void werfen() {

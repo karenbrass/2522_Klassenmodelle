@@ -3,10 +3,10 @@ public class Kind {
     public String geschlecht;
     public int alter;
 
-    public Kind(String neuerName, String neuesGeschlecht, int neuesAlter) {
-        name = neuerName;
-        geschlecht = neuesGeschlecht;
-        alter = neuesAlter;
+    public Kind(String name, String geschlecht, int alter) {
+        this.name = name;
+        this.geschlecht = geschlecht;
+        this.alter = alter;
     }
 
     public void spielen() {

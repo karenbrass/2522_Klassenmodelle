@@ -3,10 +3,11 @@ public class Hund {
     public double alter;
     public String farbe;
 
-    public Hund(String neueRasse, double neuesAlter, String neueFarbe) {
-        rasse = neueRasse;
-        alter = neuesAlter;
-        farbe = neueFarbe;
+    public Hund(String rasse, double alter, String farbe) {
+        // Neues Schlüsselwort: Zugriff auf das eigenen Objekt: this (self, me)
+        this.rasse = rasse;
+        this.alter = alter;
+        this.farbe = farbe;
     }
 
     public void adoptieren() {

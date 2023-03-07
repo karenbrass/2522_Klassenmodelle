@@ -3,10 +3,10 @@ public class Schrank {
     public int türen;
     public int schubladen;
 
-    public Schrank(String neueArt, int neueTüren, int neueSchubladen) {
-        art = neueArt;
-        türen = neueTüren;
-        schubladen = neueSchubladen;
+    public Schrank(String art, int türen, int schubladen) {
+        this.art = art;
+        this.türen = türen;
+        this.schubladen = schubladen;
     }
 
     public void türAuf() {

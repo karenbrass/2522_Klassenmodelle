@@ -3,10 +3,10 @@ public class Drink {
     public double preis;
     public String zutaten;
 
-    public Drink(String neuerGetränkename, double neuerPreis, String neueZutaten) {
-        getränkename = neuerGetränkename;
-        preis = neuerPreis;
-        zutaten = neueZutaten;
+    public Drink(String getränkename, double preis, String zutaten) {
+        this.getränkename = getränkename;
+        this.preis = preis;
+        this.zutaten = zutaten;
     }
 
     public void zutatHinzufügen(String zutat) {
