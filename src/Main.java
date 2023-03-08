@@ -37,6 +37,8 @@ public class Main {
         Kind tina = new Kind("Tina", "weiblich", 3);
         Kind paul = new Kind("Paul", "männlich", 2);
 
+        System.out.println(paul.getAlter());
+        tina.setAlter(4);
         tina.spielen();
         paul.schläft();
 
